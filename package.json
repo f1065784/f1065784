@@ -1,0 +1,33 @@
+{
+  "name": "papka",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js ",
+    "installall": "npm i"
+  },
+  "author": "David Zhmachenkov",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cowsay": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "one-liner-joke": "^1.2.2",
+    "path": "^0.12.7"
+  },
+  "order": {
+    "id": "1247",
+    "products": [
+      "apple X3, banana X5, pineaple X1"
+    ],
+    "totalPrice": "150",
+    "userPhone": "+380931706442",
+    "postNumber": "25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
